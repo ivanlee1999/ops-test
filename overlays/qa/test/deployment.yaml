@@ -13,7 +13,7 @@ spec:
       containers:
         - command:
             - /app/cmd/pc_apiv4
-          image: 'us-east1-docker.pkg.dev/eng-ops-01/repos/admin-server:83ae8258ee9f6b665494f51690fbb11681b60a6d'
+          image: 'us-east1-docker.pkg.dev/eng-ops-01/repos/admin-server:cvdb445645675675675'
           imagePullPolicy: IfNotPresent
           livenessProbe:
             httpGet:
